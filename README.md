@@ -79,7 +79,7 @@ and More...
 
 # Not So Frequently Asked Questions
 - **Q: Why should I even use this?**
-- **A:** It's your choice. If you like open-source AI models, too lazy to open a browser and don't have high end PC to run it locally, this application is just for you.
+- **A:** It's your choice. If you like open-source AI models, too lazy to open a browser and don't have high end PC to run it locally, this application is just for you. Also, Groq is something special. It uses an LPU (Language Processing Unit) , which has a greater capacity than CPU or GPU. As a result, the replies of the models are as fast as instant. Learn more at https://wow.groq.com/why-groq 
 - **Q: Why isn't [Put a model name here] working? I have active internet connection and also provided an API key.**
 - **A:** Maybe that specific model(s) got removed, or changed to a new name. Just go to the [Groq models documentation](https://console.groq.com/docs/models) to find the changes, then modify the code; or wait for me to update the app.
   
