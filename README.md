@@ -30,11 +30,11 @@ A standalone Python Qt6 application to chat with Groq AI by using various open-s
 
 Download directly from GitHub or by using the git command:
 ```
-git clone https://github.com/FurtherSecrets24680/GroQT.git
+git clone https://github.com/FurtherSecrets24680/GroQt.git
 ```
 Then, provide your Groq API key in the **config.py** folder, and run **main.py** to start chatting.
 
-# Getting the API key
+# Getting the API Key
 
 * Go to https://console.groq.com/keys and sign up or log in to your account.
 * Click **Create API Key**, then enter a name for the key.
@@ -64,7 +64,7 @@ Then, provide your Groq API key in the **config.py** folder, and run **main.py**
 - Chat area and input box obviously
 
 
-# Planned
+# Planned Features
 - [ ] Chat history - View/Delete/Export Chat history
 - [ ] Clear chat
 - [ ] Ability to provide API key within the app
