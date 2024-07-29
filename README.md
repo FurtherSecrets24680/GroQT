@@ -1,6 +1,6 @@
 # GroQT
 
-A standalone Python Qt6 application to chat with Groq AI by using various open-source models. An API key is required to chat.
+A standalone Python Qt6 application to chat with Groq AI by using various open-source models. An API key is required to chat, which is free. 
 ![image](https://github.com/user-attachments/assets/77db8184-7d42-405e-b1da-659b7d384823) 
 
 - Dark Mode
@@ -55,10 +55,23 @@ Then, provide your Groq API key in the **config.py** folder, and run **main.py**
   -  Gemma 7B by Google
   -  Gemma 2 9B by Google
 - Dark/Light mode switcher
+- Configuring the "System Prompt" (from the config.py file)
+- Markdown Support
 - Chat area and input box obviously
 
 
 # Planned
-- Chat history
-- Clear chat
-- Ability to provide API key within the app
+- [ ] Chat history - View/Delete/Export Chat history
+- [ ] Clear chat
+- [ ] Ability to provide API key within the app
+- [ ] Ability to provide System Prompt within the app
+- [ ] Custom bots with custom system prompts
+and More...
+
+# Known issues
+- When asked to write poem or code, it tries to do it within one line/paragraph. Seems like a markdown issue.
+  ![image](https://github.com/user-attachments/assets/b763fcd7-5e12-44ab-99d3-1cf919c813bb)
+
+# Inspiration
+- PyQt6-Groq-Chatbot by vn33: https://github.com/vn33/PyQt6-Groq-Chatbot
+
