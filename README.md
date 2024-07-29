@@ -1,18 +1,22 @@
-# GroQT
+# Overview
 
 A standalone Python Qt6 application to chat with Groq AI by using various open-source models. An API key is required to chat, which is free. 
-![image](https://github.com/user-attachments/assets/77db8184-7d42-405e-b1da-659b7d384823) 
+![image](https://github.com/user-attachments/assets/bb7d1656-9d27-42bf-b5dd-fde4fb752038)
 
 - Dark Mode
 
-![image](https://github.com/user-attachments/assets/3b8fa93f-24da-42cb-97eb-6dbb27dc3df4)
+![image](https://github.com/user-attachments/assets/2caf73bd-f222-45c3-a7b0-fe9370107f91)
 
 - Light Mode
 
 # Prerequisites
 
 * Python (3.6 or higher)
-
+  Use the commands below to install the following libraries: Groq, PyQt6, Markdown2
+  - Groq Library
+    ```
+    pip install groq
+    ```
   - PyQt6 Library
     ```
     pip install PyQt6
@@ -66,12 +70,22 @@ Then, provide your Groq API key in the **config.py** folder, and run **main.py**
 - [ ] Ability to provide API key within the app
 - [ ] Ability to provide System Prompt within the app
 - [ ] Custom bots with custom system prompts
+- [ ] More UI improvements
 and More...
 
 # Known issues
 - When asked to write poem or code, it tries to do it within one line/paragraph. Seems like a markdown issue.
   ![image](https://github.com/user-attachments/assets/b763fcd7-5e12-44ab-99d3-1cf919c813bb)
 
-# Inspiration
-- PyQt6-Groq-Chatbot by vn33: https://github.com/vn33/PyQt6-Groq-Chatbot
+# Not So Frequently Asked Questions
+- **Q: Why should I even use this?**
+- **A:** It's your choice. If you like open-source AI models, too lazy to open a browser and don't have high end PC to run it locally, this application is just for you.
+- **Q: Why isn't [Put a model name here] working? I have active internet connection and also provided an API key.**
+- **A:** Maybe that specific model(s) got removed, or changed to a new name. Just go to the [Groq models documentation](https://console.groq.com/docs/models) to find the changes, then modify the code; or wait for me to update the app.
+  
+# Credits
+- Inspired by **vn33**'s **PyQt6-Groq-Chatbot** - https://github.com/vn33/PyQt6-Groq-Chatbot
 
+# References
+- Groq API documentation - https://console.groq.com/docs
+- Groq-python GitHub repo - https://github.com/groq/groq-python
