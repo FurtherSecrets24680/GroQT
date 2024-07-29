@@ -1,3 +1,4 @@
+# GroQt - an AI chatbot app made using Qt6 library and Groq API in Python.
 # This is the main code for the GUI, and functions of the application.
 # Provide your own Groq API key in the config.py file.
 
@@ -12,7 +13,7 @@ class ChatbotApp(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("GroQT Chat")
+        self.setWindowTitle("GroQt Chat")
         self.setGeometry(100, 100, 800, 700)
 
         self.central_widget = QWidget()
@@ -22,7 +23,7 @@ class ChatbotApp(QMainWindow):
         self.header_layout = QHBoxLayout()
         self.main_layout.addLayout(self.header_layout)
 
-        self.title_label = QLabel("GroQT Chat")
+        self.title_label = QLabel("GroQt Chat")
         self.title_label.setFont(QFont("Helvetica", 20, QFont.Weight.Bold))
         self.header_layout.addWidget(self.title_label)
 
