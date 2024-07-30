@@ -1,18 +1,37 @@
 # Overview
 
 A standalone Python Qt6 application to chat with Groq AI by using various open-source models. An API key is required to chat, which is free. 
-![image](https://github.com/user-attachments/assets/bb7d1656-9d27-42bf-b5dd-fde4fb752038)
 
-- Dark Mode
+<img src="https://github.com/user-attachments/assets/bb7d1656-9d27-42bf-b5dd-fde4fb752038" width="550" height="550">
 
-![image](https://github.com/user-attachments/assets/2caf73bd-f222-45c3-a7b0-fe9370107f91)
+> Dark Mode
 
-- Light Mode
+<img src="https://github.com/user-attachments/assets/2caf73bd-f222-45c3-a7b0-fe9370107f91" width="550" height="550">
+
+> Light Mode
+
+# Features
+- Model Selection Dropdown. Currently available models:
+  
+  >  *Llama 3.1 405B **(NOT AVAILABLE IN THE GROQ API YET)**
+  -  Llama 3.1 70B (Preview) by Meta
+  -  Llama 3.1 8B (Preview) by Meta
+  -  Llama 3 Groq 70B Tool Use (Preview) by Meta, refined by Groq
+  -  Llama 3 Groq 8B Tool Use (Preview) by Meta, refined by Groq
+  -  Meta Llama 3 70B (Default) by Meta
+  -  Meta Llama 3 8B by Meta
+  -  Mixtral 8x7B by Mistral AI
+  -  Gemma 7B by Google
+  -  Gemma 2 9B by Google
+- Dark/Light mode switcher
+- Configuring the "System Prompt" (from the config.py file)
+- Markdown Support
+- Chat area and input box obviously
 
 # Prerequisites
 
 * Python (3.6 or higher)
-  Use the commands below to install the following libraries: Groq, PyQt6, Markdown2
+  Use the commands below to install the following libraries: **Groq**, **PyQt6**, **Markdown2**
   - Groq Library
     ```
     pip install groq
@@ -30,9 +49,11 @@ A standalone Python Qt6 application to chat with Groq AI by using various open-s
 
 Download directly from GitHub or by using the git command:
 ```
-git clone https://github.com/FurtherSecrets24680/GroQt.git
+> git clone https://github.com/FurtherSecrets24680/GroQt.git
+> cd GroQt
+> python main.py
 ```
-Then, provide your Groq API key in the **config.py** folder, and run **main.py** to start chatting.
+**If you are running this for the first time, you must provide your Groq API key in the config.py folder, then run main.py to start chatting.**
 
 # Getting the API Key
 
@@ -45,24 +66,6 @@ Then, provide your Groq API key in the **config.py** folder, and run **main.py**
 (**MAKE SURE TO COPY THE KEY IMMEDIATELY, IT WONT SHOW IT AFTER CLOSING THE BOX.**)
 
   ![image](https://github.com/user-attachments/assets/d28e0275-70f6-4f6a-9dd3-f20d6dc2cf16)
-
-# Features
-- Model Selection Dropdown. Currently available models: 
-  -  *Llama 3.1 405B **(NOT AVAILABLE IN THE GROQ API YET)**
-  -  Llama 3.1 70B (Preview) by Meta
-  -  Llama 3.1 8B (Preview) by Meta
-  -  Llama 3 Groq 70B Tool Use (Preview) by Meta, refined by Groq
-  -  Llama 3 Groq 8B Tool Use (Preview) by Meta, refined by Groq
-  -  Meta Llama 3 70B (Default) by Meta
-  -  Meta Llama 3 8B by Meta
-  -  Mixtral 8x7B by Mistral AI
-  -  Gemma 7B by Google
-  -  Gemma 2 9B by Google
-- Dark/Light mode switcher
-- Configuring the "System Prompt" (from the config.py file)
-- Markdown Support
-- Chat area and input box obviously
-
 
 # Planned Features
 - [ ] Chat history - View/Delete/Export Chat history
